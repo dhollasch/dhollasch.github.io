@@ -1,0 +1,39 @@
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+wrapper {
+  background-color: blue;
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+headshot {
+	border-radius: 50% ;
+}
+
+I am 25 year old software engineer residing in (Central) New Jersey. I have a degree in Computer Science from Rutgers NewBrunsiwck.
+					To showcase my web development skills and my growing photography portfolio I created this website. 
+				</p>
+				.wrapper-about {
+	
+	
+	display: flex;
+	flex-direction: column;
+	height: 60%;
+	max-width: 400%;
+	align-items: center;
+	
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	
+} 
