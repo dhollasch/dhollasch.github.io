@@ -5,10 +5,25 @@ html, body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
+	
+}
+html {
 	background: linear-gradient(22deg, rgba(255,255,255,1) 5%, rgba(134,134,134,1) 93%);
 }
 
-.wrapper, .wrapper-about {
+
+/* Text */ 
+.topnav, .topnav-about,, .topnav-portfolio, .job, .bio, .medialinks, .title-about, .about-essay {
+	 font-family: 'Open Sans', sans-serif;
+	
+}
+.portf-header{
+	font-family: 'Electrolize', sans-serif;
+  margin-bottom: 2px;
+}
+
+
+.wrapper, .wrapper-about, .wrapper-portfolio{
 	max-width: 400%;
 	display: flex;
 	flex-direction: column;
@@ -47,13 +62,6 @@ html, body {
   margin-bottom: 2px;
 	
 }
-
-/* Text */ 
-.topnav, .topnav-about, .job, .bio, .medialinks, .title-about, .about-essay {
-	 font-family: 'Open Sans', sans-serif;
-	
-}
-
 
 
 .medialinks  {
@@ -105,18 +113,19 @@ html, body {
 .wrapper-about {
 	
 align-items: center;
+order:1
 
 } 
-.topnav-about a {
+.topnav-about a{
 	float: left ; 
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 
 }
-.topnav-about a:hover {
+.topnav-about a:hover{
 	background-color: #ddd;
 	color: black;
 }
@@ -157,3 +166,61 @@ align-items: center;
 	 padding: 0 4px;
 	
 }
+
+
+/*----------Portfolio styling ------------*/
+
+.wrapper-portfolio{
+	max-width: 400%;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	flex-grow: 1;  
+	align-items: center;
+	
+	
+}
+.topnav-portfolio a{
+	float: left ; 
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	order:1 	
+}
+.topnav-portfolio a:hover {
+	background-color: #ddd;
+	color: black;
+	align-items: center;
+	
+	
+}
+.resp-grid {
+	max-width: 400%;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	flex-grow: 0;  
+	
+	order: 2 ;
+	
+
+}
+
+.resp-grid {
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center; 
+}
+
+.resp-grid img {
+	margin: 10px;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 25vw;
+}
+
+
+
+
+
